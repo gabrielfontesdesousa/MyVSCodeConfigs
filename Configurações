@@ -1,6 +1,6 @@
 {
-    "workbench.colorTheme": "dPico Contrast Aquatic",
-    "workbench.activityBar.location": "default",
+    "workbench.colorTheme": "Rider Dark",
+    "workbench.activityBar.location": "hidden",
     "editor.cursorSmoothCaretAnimation": "on",
     "workbench.editor.showTabs": "none",
     "workbench.statusBar.visible": false,
@@ -30,7 +30,7 @@
       ".notification-toast": "box-shadow: none !important",
       ".quick-input-widget.show-file-icons": "box-shadow: none !important",
       ".quick-input-widget": "top: 25vh !important",
-      ".quick-input-list .scrollbar": "display: none",
+      ".quick-input-list .scrollbar": "display:",
       ".monaco-action-bar.quick-input-inline-action-bar": "display: none",
       ".editor-widget.find-widget": "box-shadow: none; border-radius: 4px",
       ".quick-input-titlebar": "background: #100B15 !important",
@@ -108,7 +108,6 @@
     "editor.occurrencesHighlight": "off",
     "editor.selectionHighlight": false,
     "editor.scrollbar.horizontal": "hidden",
-    "editor.scrollbar.vertical": "hidden",
     "editor.overviewRulerBorder": false,
     "editor.hideCursorInOverviewRuler": true,
     "editor.quickSuggestions": {
@@ -138,6 +137,8 @@
       "**/*.INC*{,/*}": "pl1",
       "**/*.INCLUDE*{,/*}": "pl1",
       "**/*.JCL*{,/*}": "jcl",
+      "**/*.CNTL*{,/*}": "jcl",
+      "**/*.PROC*{,/*}": "jcl",
       "**/*.ASM*{,/*}": "hlasm",
       "**/*.ASSEMBLE*{,/*}": "hlasm",
       "**/*.HLASM*{,/*}": "hlasm",
@@ -157,13 +158,13 @@
         "fileMatch": [
           "/zapp.json"
         ],
-        "url": "file:///c%3A/Users/aluno/.vscode/extensions/ibm.zopeneditor-5.3.0/resources/zapp-schema-1.3.0.json"
+        "url": "file:///c%3A/Users/aluno/.vscode/extensions/ibm.zopeneditor-5.4.0/resources/zapp-schema-1.4.0.json"
       },
       {
         "fileMatch": [
           "/zcodeformat.json"
         ],
-        "url": "file:///c%3A/Users/aluno/.vscode/extensions/ibm.zopeneditor-5.3.0/resources/zcodeformat-schema-0.0.1.json"
+        "url": "file:///c%3A/Users/aluno/.vscode/extensions/ibm.zopeneditor-5.4.0/resources/zcodeformat-schema-0.0.1.json"
       }
     ],
     "workbench.productIconTheme": "el-vsc-v1-icons",
