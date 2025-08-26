@@ -1,13 +1,14 @@
 {
-    "workbench.colorTheme": "Rider Dark",
-    "workbench.activityBar.location": "hidden",
+    "editor.colorDecoratorsActivatedOn": "hover",
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "workbench.colorTheme": "JetBrains Rider New UI Dark",
+    "workbench.activityBar.location": "default",
     "editor.cursorSmoothCaretAnimation": "on",
     "workbench.editor.showTabs": "none",
     "workbench.statusBar.visible": false,
     "workbench.startupEditor": "none",
     "workbench.tips.enabled": false,
     "editor.minimap.enabled": false,
-    "workbench.iconTheme": "vscode-jetbrains-icon-theme-2023-dark",
     "material-icon-theme.hidesExplorerArrows": true,
     "workbench.tree.enableStickyScroll": false,
     "workbench.tree.renderIndentGuides": "none",
@@ -17,77 +18,82 @@
     "explorer.confirmDelete": false,
     "explorer.decorations.badges": false,
     "git.decorations.enabled": false,
-    "window.zoomLevel": 1.9,
+    "window.zoomLevel": 3.0,
     "window.titleBarStyle": "custom",
     "custom-ui-style.electron": {
-      "titleBarStyle": "hiddenInset",
-      "trafficLightPosition": {
-        "x": 20,
-        "y": 16
-      }
+        "titleBarStyle": "hiddenInset",
+        "trafficLightPosition": {
+            "x": 20,
+            "y": 16
+        }
     },
+    "code-runner.executorMap": {
+        "typescript": "npx tsx"
+    },
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.ignoreSelection": true,
+    "code-runner.runInTerminal": true,
     "custom-ui-style.stylesheet": {
-      ".notification-toast": "box-shadow: none !important",
-      ".quick-input-widget.show-file-icons": "box-shadow: none !important",
-      ".quick-input-widget": "top: 25vh !important",
-      ".quick-input-list .scrollbar": "display:",
-      ".monaco-action-bar.quick-input-inline-action-bar": "display: none",
-      ".editor-widget.find-widget": "box-shadow: none; border-radius: 4px",
-      ".quick-input-titlebar": "background: #100B15 !important",
-      ".monaco-workbench .part.editor > .content .editor-group-container > .title.title-border-bottom:after": "display: none",
-      ".monaco-scrollable-element > .shadow.top": "display: none",
-      ".sidebar .title-label": "padding: 0 !important",
-      ".sidebar": "border: none !important",
-      ".monaco-workbench .monaco-list:not(.element-focused):focus:before": "outline: none !important",
-      ".monaco-list-row.focused": "outline: none !important",
-      ".monaco-editor .scroll-decoration": "display: none",
-      ".title-actions": "display: none !important",
-      ".title.show-file-icons .label-container .monaco-icon-label.file-icon": "justify-content: center; padding: 0 !important",
-      ".title .monaco-icon-label:after": "margin-right: 0",
-      ".monaco-workbench .part.editor > .content .editor-group-container > .title > .label-container > .title-label": "padding-left: 60px",
-      ".title .monaco-icon-label.file-icon": "margin: 0 60px",
-      ".monaco-editor .cursors-layer .cursor": "background-image: linear-gradient(135deg, #ffaffc 10%, #DA70D6 100%)"
+        ".notification-toast": "box-shadow: none !important",
+        ".quick-input-widget.show-file-icons": "box-shadow: none !important",
+        ".quick-input-widget": "top: 25vh !important",
+        ".quick-input-list .scrollbar": "display: none",
+        ".monaco-action-bar.quick-input-inline-action-bar": "display: none",
+        ".editor-widget.find-widget": "box-shadow: none; border-radius: 4px",
+        ".quick-input-titlebar": "background: #100B15 !important",
+        ".monaco-workbench .part.editor > .content .editor-group-container > .title.title-border-bottom:after": "display: none",
+        ".monaco-scrollable-element > .shadow.top": "display: none",
+        ".sidebar .title-label": "padding: 0 !important",
+        ".sidebar": "border: none !important",
+        ".monaco-workbench .monaco-list:not(.element-focused):focus:before": "outline: none !important",
+        ".monaco-list-row.focused": "outline: none !important",
+        ".monaco-editor .scroll-decoration": "display: none",
+        ".title-actions": "display: none !important",
+        ".title.show-file-icons .label-container .monaco-icon-label.file-icon": "justify-content: center; padding: 0 !important",
+        ".title .monaco-icon-label:after": "margin-right: 0",
+        ".monaco-workbench .part.editor > .content .editor-group-container > .title > .label-container > .title-label": "padding-left: 60px",
+        ".title .monaco-icon-label.file-icon": "margin: 0 60px",
+        ".monaco-editor .cursors-layer .cursor": "background-image: linear-gradient(135deg, #ffaffc 10%, #DA70D6 100%)"
     },
-    "custom-ui-style.font.sansSerif": "consolas",
+    "custom-ui-style.font.sansSerif": "jetbrains mono",
     "editor.multiCursorModifier": "ctrlCmd",
     "editor.cursorBlinking": "phase",
     "editor.cursorStyle": "block-outline",
     "workbench.colorCustomizations": {
-      "editorCursor.background": "#000000",
-      "editorOverviewRuler.wordHighlightStrongForeground": "#0000",
-      "editorOverviewRuler.selectionHighlightForeground": "#0000",
-      "editorOverviewRuler.rangeHighlightForeground": "#0000",
-      "editorOverviewRuler.wordHighlightForeground": "#0000",
-      "editorOverviewRuler.bracketMatchForeground": "#0000",
-      "editorOverviewRuler.findMatchForeground": "#0000",
-      "editorOverviewRuler.modifiedForeground": "#0000",
-      "editorOverviewRuler.deletedForeground": "#0000",
-      "editorOverviewRuler.warningForeground": "#0000",
-      "editorOverviewRuler.addedForeground": "#0000",
-      "editorOverviewRuler.errorForeground": "#0000",
-      "editorOverviewRuler.infoForeground": "#0000",
-      "editorOverviewRuler.border": "#0000",
-      "[Aura Dracula Spirit (Soft)]": {
-        "editorSuggestWidget.selectedBackground": "#3A334B",
-        "sideBar.background": "#191521"
-      }
+        "editorCursor.background": "#000000",
+        "editorOverviewRuler.wordHighlightStrongForeground": "#0000",
+        "editorOverviewRuler.selectionHighlightForeground": "#0000",
+        "editorOverviewRuler.rangeHighlightForeground": "#0000",
+        "editorOverviewRuler.wordHighlightForeground": "#0000",
+        "editorOverviewRuler.bracketMatchForeground": "#0000",
+        "editorOverviewRuler.findMatchForeground": "#0000",
+        "editorOverviewRuler.modifiedForeground": "#0000",
+        "editorOverviewRuler.deletedForeground": "#0000",
+        "editorOverviewRuler.warningForeground": "#0000",
+        "editorOverviewRuler.addedForeground": "#0000",
+        "editorOverviewRuler.errorForeground": "#0000",
+        "editorOverviewRuler.infoForeground": "#0000",
+        "editorOverviewRuler.border": "#0000",
+        "[Aura Dracula Spirit (Soft)]": {
+            "editorSuggestWidget.selectedBackground": "#3A334B",
+            "sideBar.background": "#191521"
+        }
     },
     "editor.fontFamily": "JetBrains Mono",
-    "editor.fontSize": 14,
+    "editor.fontSize": 13,
     "editor.fontLigatures": true,
-    "editor.lineHeight": 2.4,
+    "editor.lineHeight": 3,
     "editor.tokenColorCustomizations": {
-      "textMateRules": [
-        {
-          "scope": "comment",
-          "settings": {
-            "fontStyle": "italic"
-          }
-        }
-      ]
+        "textMateRules": [
+            {
+                "scope": "comment",
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            }
+        ]
     },
     "editor.stickyScroll.enabled": false,
-    "editor.colorDecorators": false,
     "editor.codeLens": true,
     "editor.links": false,
     "editor.matchBrackets": "never",
@@ -99,7 +105,6 @@
     "files.insertFinalNewline": true,
     "scm.diffDecorations": "none",
     "editor.lineNumbers": "relative",
-    "editor.tabSize": 2,
     "editor.detectIndentation": false,
     "editor.showFoldingControls": "never",
     "editor.guides.indentation": false,
@@ -108,10 +113,11 @@
     "editor.occurrencesHighlight": "off",
     "editor.selectionHighlight": false,
     "editor.scrollbar.horizontal": "hidden",
+    "editor.scrollbar.vertical": "auto",
     "editor.overviewRulerBorder": false,
     "editor.hideCursorInOverviewRuler": true,
     "editor.quickSuggestions": {
-      "other": true,
+        "other": true,
         "comments": false,
         "strings": true
     },
@@ -123,60 +129,68 @@
     "update.mode": "none",
     "extensions.ignoreRecommendations": true,
     "chat.commandCenter.enabled": false,
-    "window.menuBarVisibility": "compact",
-    "workbench.layoutControl.enabled": false,
     "workbench.navigationControl.enabled": false,
     "files.associations": {
-      "**/*.COBOL*{,/*}": "cobol",
-      "**/*.COB*{,/*}": "cobol",
-      "**/*.COBCOPY*{,/*}": "cobol",
-      "**/*.COPYBOOK*{,/*}": "cobol",
-      "**/*.COPY*{,/*}": "cobol",
-      "**/*.PL1*{,/*}": "pl1",
-      "**/*.PLI*{,/*}": "pl1",
-      "**/*.INC*{,/*}": "pl1",
-      "**/*.INCLUDE*{,/*}": "pl1",
-      "**/*.JCL*{,/*}": "jcl",
-      "**/*.CNTL*{,/*}": "jcl",
-      "**/*.PROC*{,/*}": "jcl",
-      "**/*.ASM*{,/*}": "hlasm",
-      "**/*.ASSEMBLE*{,/*}": "hlasm",
-      "**/*.HLASM*{,/*}": "hlasm",
-      "**/*.HLA*{,/*}": "hlasm",
-      "**/*.MACLIB*{,/*}": "hlasm",
-      "**/*.DBD*{,/*}": "hlasm",
-      "**/*.MFS*{,/*}": "hlasm",
-      "**/*.PCB*{,/*}": "hlasm",
-      "**/*.EXEC*{,/*}": "rexx",
-      "**/*.REXX*{,/*}": "rexx",
-      "**/*.REXXINC*{,/*}": "rexx",
-      "*.rex": "rexx",
-      "*.rexx": "rexx"
+        "**/*.COBOL*{,/*}": "cobol",
+        "**/*.COB*{,/*}": "cobol",
+        "**/*.COBCOPY*{,/*}": "cobol",
+        "**/*.COPYBOOK*{,/*}": "cobol",
+        "**/*.COPY*{,/*}": "cobol",
+        "**/*.PL1*{,/*}": "pl1",
+        "**/*.PLI*{,/*}": "pl1",
+        "**/*.INC*{,/*}": "pl1",
+        "**/*.INCLUDE*{,/*}": "pl1",
+        "**/*.JCL*{,/*}": "jcl",
+        "**/*.ASM*{,/*}": "hlasm",
+        "**/*.ASSEMBLE*{,/*}": "hlasm",
+        "**/*.HLASM*{,/*}": "hlasm",
+        "**/*.HLA*{,/*}": "hlasm",
+        "**/*.MACLIB*{,/*}": "hlasm",
+        "**/*.DBD*{,/*}": "hlasm",
+        "**/*.MFS*{,/*}": "hlasm",
+        "**/*.PCB*{,/*}": "hlasm",
+        "**/*.EXEC*{,/*}": "rexx",
+        "**/*.REXX*{,/*}": "rexx",
+        "**/*.REXXINC*{,/*}": "rexx",
+        "*.rex": "rexx",
+        "*.rexx": "rexx"
     },
     "json.schemas": [
-      {
-        "fileMatch": [
-          "/zapp.json"
-        ],
-        "url": "file:///c%3A/Users/aluno/.vscode/extensions/ibm.zopeneditor-5.4.0/resources/zapp-schema-1.4.0.json"
-      },
-      {
-        "fileMatch": [
-          "/zcodeformat.json"
-        ],
-        "url": "file:///c%3A/Users/aluno/.vscode/extensions/ibm.zopeneditor-5.4.0/resources/zcodeformat-schema-0.0.1.json"
-      }
+        {
+            "fileMatch": [
+                "/zapp.json"
+            ],
+            "url": "file:///c%3A/Users/aluno/.vscode/extensions/ibm.zopeneditor-5.3.0/resources/zapp-schema-1.3.0.json"
+        },
+        {
+            "fileMatch": [
+                "/zcodeformat.json"
+            ],
+            "url": "file:///c%3A/Users/aluno/.vscode/extensions/ibm.zopeneditor-5.3.0/resources/zcodeformat-schema-0.0.1.json"
+        }
     ],
-    "workbench.productIconTheme": "el-vsc-v1-icons",
-    "workbench.editor.editorActionsLocation": "hidden",
     "zopeneditor.welcomePage.show": false,
     "apc.font.family": "JetBrains Mono",
     "apc.monospace.font.family": "JetBrains Mono",
     "apc.parts.font.family": {
-      "titlebar": "JetBrainsMono",
-      "sidebar": "JetBrains Mono"
-
+        "titlebar": "JetBrainsMono",
+        "sidebar": "JetBrains Mono"
     },
     "git.openRepositoryInParentFolders": "always",
-    "workbench.sideBar.location": "right"
-  }
+    "workbench.sideBar.location": "right",
+    "workbench.panel.showLabels": false,
+    "terminal.integrated.enableMultiLinePasteWarning": "never",
+    "breadcrumbs.enabled": false,
+    "terminal.integrated.tabs.hideCondition": "never",
+    "terminal.integrated.tabs.showActions": "singleTerminal",
+    "terminal.integrated.defaultProfile.windows": "Command Prompt",
+    "workbench.productIconTheme": "fluent-icons",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.editor.empty.hint": "hidden",
+    "window.menuBarVisibility": "compact",
+    "workbench.layoutControl.enabled": false,
+    "vscode_custom_css.imports": [
+        "file:///C:/Users/Fontes/Documentos/custom.css"
+    ],
+    "code-runner.defaultLanguage": "typescript"
+}
